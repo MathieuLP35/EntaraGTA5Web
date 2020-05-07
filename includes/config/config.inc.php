@@ -4,7 +4,7 @@
  * Connexion à la base de donnée
  */
 $database_host = "localhost";
-$database_name = "bdd";
+$database_name = "";
 $database_user = "";
 $database_password = "";
 
@@ -14,7 +14,7 @@ $database_password = "";
 $steam_api_key = "7D7F90EA0343777A871B619AC1EF3979";
 $steam_domain = "localhost";
 
-$website_url = "http://localhost/projectrp";
+$website_url = "http://localhost/MathieuLP-PHPJS";
 
 
 /**

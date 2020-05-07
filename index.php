@@ -23,7 +23,8 @@
       <script type="text/javascript" src="js/popper.min.js"></script>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/mdb.min.js"></script>
-
+      <script type="text/javascript" src="js/search.js"></script>
+      <script type="text/javascript" src="js/cardealer.js"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -36,4 +37,5 @@
     <!-- Footer -->
     <?php require "includes/footer.inc.php"; ?>
   </body>
+  <script type="text/javascript" src="js/cardealer.js"></script>
 </html>

@@ -9,7 +9,10 @@
     $query = $bdd->query($request);
 ?>
 
+<div id="return"></div>
 <a href="?page=cardealer_registre" class="btn btn-success my-3" data-anim-type="fade-in-up"><i style="margin-right:8px" class="fas fa-car"></i>Registre des immatriculations</a>
+
+<input class="form-control" id="searchInput" type="text" placeholder="Rechercher..">
 <table class="table table-bordered">
     <thead>
     <tr>
@@ -19,7 +22,7 @@
         <th>Prix</th>
     </tr>
     </thead>
-    <tbody id="myTable">
+    <tbody id="searchTable">
     <?php
     while ($data = $query->fetch()) {
         $classCarDealer = new Concess($data);
